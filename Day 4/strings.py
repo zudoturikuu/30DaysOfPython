@@ -108,17 +108,13 @@ print(num.isnumeric())
 string = ['Thirty', 'Days', 'of']
 join = ''.join(string)
 print(join)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+company = 'Coding for all'
+print(company)
+print(len(company))
+print(company.upper())
+print(company.lower())
+print(company.capitalize())
+print(company.title())
+print(company.swapcase())
+print(company.replace('Coding', 'Python'))
+print(company.find('C'))
